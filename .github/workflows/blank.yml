@@ -1,4 +1,4 @@
-# Nome da Actions:
+# Nome da Actions:  
 name: Snake Game
 
 # Controlador do tempo que sera feito a atualização dos arquivos.
@@ -44,9 +44,3 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
